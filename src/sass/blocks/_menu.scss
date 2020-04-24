@@ -12,6 +12,9 @@
         letter-spacing: 2px;
         list-style-type: none;
     }
+    a {
+        transition: 0.5s all;
+    }
     &_header {
         ul {
             margin-top: 46px;

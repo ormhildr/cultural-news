@@ -73,6 +73,10 @@
         letter-spacing: 2px;
         text-transform: uppercase;
         color: #FFFFFF;
+        transition: 0.5s all;
+        &:hover {
+            padding-left: 30px;
+        }
         img {
             margin-left: 7px;
         }

@@ -33,5 +33,9 @@
         width: 47px;
         height: 47px;
         background: #FFFFFF;
+        transition: 0.5s all;
+        &:hover {
+            background: #FF7931;
+        }
     }
 }
