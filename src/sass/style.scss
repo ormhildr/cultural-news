@@ -1,0 +1,13 @@
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/hotel';
+@import 'blocks/titles';
+@import 'blocks/review';
+@import 'blocks/tickets';
+@import 'blocks/footer';
+@import 'blocks/menu';
+@import 'base/media';

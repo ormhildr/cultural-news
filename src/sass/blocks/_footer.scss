@@ -1,0 +1,37 @@
+.footer {
+    min-height: 295px;
+    padding: 26px 0 46px 0;
+    background: #575757;
+    margin-top: 50px;
+    &__title {
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 28px;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    &__line {
+        margin-top: 46px;
+        max-width: 1170px;
+        height: 0px;
+        left: 135px;
+        top: 1911px;
+        opacity: 0.2;
+        border: 1px solid #FFFFFF;
+    }
+    &__links {
+        margin: 42px auto 0 auto;
+        width: 170px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__link {
+        display: flex;
+        justify-content: center;
+        width: 47px;
+        height: 47px;
+        background: #FFFFFF;
+    }
+}

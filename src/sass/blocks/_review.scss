@@ -1,0 +1,36 @@
+.review {
+    min-height: 464px;
+    padding: 44px 0 53px 0;
+    &__wrapper {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__header {
+        display: block;
+        margin-top: 20px;
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 23px;
+        color: #000000;
+        &:hover {
+            text-decoration: none;
+            color: #FF7931;
+        }
+    }
+    &__descr {
+        margin-top: 11px;
+        display: block;
+        max-width: 370px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%;
+        color: #000000;
+        &:hover {
+            color: #000000;
+        }
+    }
+}

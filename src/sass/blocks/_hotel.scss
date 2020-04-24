@@ -1,0 +1,63 @@
+.hotel {
+    padding: 46px 0 48px 0;
+    max-height: 464px;
+    background: url('../img/Mask\ Group.jpg') center (center/cover) no-repeat;
+    &__round {
+        display: block;
+        margin: 0 auto;
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        background: #FF7931;
+        text-align: center;
+        img {
+            margin: 16px 13px 21px 15px;
+            transform: translateX(-10%);
+        }
+    }
+    &__title {
+        display: block;
+        margin: 32px auto 0 auto;
+        max-width: 752px;
+        &:hover {
+            text-decoration: none;
+        }
+        h2 {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 72px;
+            line-height: 84px;
+            text-align: center;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+    }
+    &__descr {
+        margin-top: 139px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        text-align: center;
+        color: #FFFFFF;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    &__new {
+        position: absolute;
+        margin-top: -46px;
+        width: 117px;
+        height: 25px;
+        background: #FF7931;
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-align: center;
+    }
+}

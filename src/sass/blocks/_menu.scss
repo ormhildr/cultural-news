@@ -1,0 +1,41 @@
+.menu {
+    ul {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+    }
+    li {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        letter-spacing: 2px;
+        list-style-type: none;
+    }
+    &_header {
+        ul {
+            margin-top: 46px;
+        }
+        color: #000000;
+        a {
+            text-decoration: none;
+            color: #000000;
+            &:hover {
+                color: #FF7931;
+            }
+        }
+    }
+    &_footer {
+        ul {
+            margin-top: 32px;
+        }
+        color: #FFFFFF;
+        a {
+            text-decoration: none;
+            color: #FFFFFF;
+            &:hover {
+                color: #FF7931;
+            }
+        }
+    }
+}
